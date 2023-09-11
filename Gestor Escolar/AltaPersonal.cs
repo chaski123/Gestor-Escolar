@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Gestor_Escolar
 {
-    public partial class Form3 : Form
+    public partial class AltaPersonal : Form
     {
-        public Form3()
+        public AltaPersonal()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace Gestor_Escolar
 {
-    partial class Form1
+    partial class AltaGrado
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -170,14 +170,14 @@ namespace Gestor_Escolar
             this.label7.TabIndex = 6;
             this.label7.Text = "Alta De Grado";
             // 
-            // Form1
+            // AltaGrado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1186, 636);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "AltaGrado";
+            this.Text = "Alta Grado";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

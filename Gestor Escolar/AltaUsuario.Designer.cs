@@ -1,7 +1,7 @@
 ﻿
 namespace Gestor_Escolar
 {
-    partial class Form2
+    partial class AltaUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -202,14 +202,14 @@ namespace Gestor_Escolar
             this.label7.Text = "Alta De Usuario";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // Form2
+            // AltaUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1274, 646);
             this.Controls.Add(this.panel1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "AltaUsuario";
+            this.Text = "Alta Usuario";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

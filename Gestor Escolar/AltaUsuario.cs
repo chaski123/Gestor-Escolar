@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Gestor_Escolar
 {
-    public partial class Form2 : Form
+    public partial class AltaUsuario : Form
     {
-        public Form2()
+        public AltaUsuario()
         {
             InitializeComponent();
         }
