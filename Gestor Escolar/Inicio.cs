@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Gestor_Escolar
 {
-    public partial class Form1 : Form
+    public partial class Inicio : Form
     {
-        public Form1()
+        public Inicio()
         {
             InitializeComponent();
+        }
+
+        private void Principal_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
