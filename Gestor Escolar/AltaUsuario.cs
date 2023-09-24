@@ -17,15 +17,10 @@ namespace Gestor_Escolar
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void iconButton1_Click(object sender, EventArgs e)
         {
             string password = textBox2.Text;
-            if ((textBox1.Text.Length > 0 && textBox1.Text.Length <= 8 && int.TryParse(textBox1.Text, out _) && EsPasswordNumerico(password) ))
+            if ((textBox1.Text.Length > 0 && textBox1.Text.Length <= 8 && int.TryParse(textBox1.Text, out _) && EsPasswordNumerico(password)))
             {
                 // El contenido del TextBox es un número válido con hasta 8 dígitos.
                 MessageBox.Show("El nro de DNI es valido y la pass es numerica");
@@ -35,7 +30,6 @@ namespace Gestor_Escolar
                 MessageBox.Show("Número DNI y/o pass no válidos.");
             }
         }
-
         static bool EsPasswordNumerico(string password)
         {
             string patron = @"^\d+$";
@@ -44,9 +38,10 @@ namespace Gestor_Escolar
             return System.Text.RegularExpressions.Regex.IsMatch(password, patron);
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void iconButton2_Click(object sender, EventArgs e)
         {
-
+            textBox1.Clear();
+            textBox2.Clear();
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -59,12 +54,6 @@ namespace Gestor_Escolar
             {
                 pictureBox1.Image = Properties.Resources.mujertp5;
             }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            textBox1.Clear();
-            textBox2.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)

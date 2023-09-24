@@ -18,7 +18,7 @@ namespace Gestor_Escolar
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void iconButton1_Click(object sender, EventArgs e)
         {
             // Validar el campo de DNI
             if (textBox1.Text.Length != 8 || !EsNumero(textBox1.Text))
@@ -74,7 +74,7 @@ namespace Gestor_Escolar
             return Regex.IsMatch(correo, patron);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void iconButton2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
             textBox2.Clear();

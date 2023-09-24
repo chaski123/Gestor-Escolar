@@ -17,7 +17,7 @@ namespace Gestor_Escolar
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void iconButton1_Click(object sender, EventArgs e)
         {
             string input = textBox1.Text;
             string input2 = textBox2.Text;
@@ -30,7 +30,7 @@ namespace Gestor_Escolar
             }
 
             // Verifica que los campos tengan un solo dígito numérico
-            if ( input.Length != 1 || !char.IsDigit(input[0]) || (input2.Length != 1 || !char.IsDigit(input2[0])))
+            if (input.Length != 1 || !char.IsDigit(input[0]) || (input2.Length != 1 || !char.IsDigit(input2[0])))
             {
                 MessageBox.Show("El campo curso y/o division solo pueden contener un solo dígito numérico.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -39,7 +39,7 @@ namespace Gestor_Escolar
             MessageBox.Show("Los campos son validos, se ha dado de alta con exito el grado", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void iconButton2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
             textBox2.Clear();

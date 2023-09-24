@@ -16,7 +16,7 @@ namespace Gestor_Escolar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AltaGrado());
+            Application.Run(new Login());
         }
     }
 }

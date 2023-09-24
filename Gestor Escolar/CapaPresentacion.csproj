@@ -90,6 +90,12 @@
     <Compile Include="AltaPersonal.Designer.cs">
       <DependentUpon>AltaPersonal.cs</DependentUpon>
     </Compile>
+    <Compile Include="AltaEscuela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaEscuela.Designer.cs">
+      <DependentUpon>AltaEscuela.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AltaPersonal.resx">
       <DependentUpon>AltaPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltaEscuela.resx">
+      <DependentUpon>AltaEscuela.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
